@@ -13,82 +13,44 @@ publishedBlogEntries.sort(function (a, b) {
 
 const footerLinks = [
   {
-    header: 'About Us',
+    header: '',
     links: [
       {
-        name: 'Home',
+        name: '',
         href: '/',
         isExternal: false,
       },
       {
-        name: 'Features',
+        name: '',
         href: '/',
         isExternal: false,
       },
       {
-        name: 'About',
+        name: '',
         href: '/',
         isExternal: false,
       },
       {
-        name: 'Testimonial',
+        name: '',
         href: '/',
         isExternal: false,
       },
     ],
   },
   {
-    header: 'Features',
+    header: '',
     links: [
-      {
-        name: 'How it works',
-        href: '/',
-        isExternal: false,
-      },
-      {
-        name: 'Privacy policy',
-        href: '/',
-        isExternal: false,
-      },
-      {
-        name: 'Terms of Service',
-        href: '/',
-        isExternal: false,
-      },
-      {
-        name: 'Refund policy',
-        href: '/',
-        isExternal: false,
-      },
+      
     ],
   },
   {
-    header: 'Our Products',
+    header: '',
     links: [
-      {
-        name: 'Lineicons',
-        href: 'https://lineicons.com/',
-        isExternal: true,
-      },
-      {
-        name: 'TailAdmin',
-        href: 'https://tailadmin.com/',
-        isExternal: true,
-      },
-      {
-        name: 'TailGrids',
-        href: 'https://tailgrids.com/',
-        isExternal: true,
-      },
-      {
-        name: 'UIdeck',
-        href: 'https://uideck.com/',
-        isExternal: true,
-      },
+      
     ],
   },
   {
-    header: 'Latest blog',
+    header: '',
     links: [],
   },
 ];
@@ -114,8 +76,7 @@ const footerLinks = [
             />
           </a>
           <p class="mb-8 max-w-[270px] text-base text-gray-7">
-            We create digital experiences for brands and companies by using
-            technology.
+            Victory Vision Limited is a leading transport and logistics provider committed to delivering comprehensive and reliable solutions.
           </p>
           <div class="-mx-3 flex items-center">
             <a href="javascript:void(0)" class="px-3 text-gray-7 hover:text-white">
@@ -227,21 +188,7 @@ const footerLinks = [
           <h4 class="mb-9 text-lg font-semibold text-white">{footerLinks[3].header}</h4>
           <ul class="flex flex-col gap-8">
             {
-              publishedBlogEntries.slice(0, 2).map((blogPostEntry, index) => (
-                <li>
-                  <a class="group flex items-center gap-[22px]" href={`/blog/${blogPostEntry.slug}`}>
-                    <div class="overflow-hidden rounded max-w-[70px] w-full max-h-12 h-full">
-                      <img
-                        src={blogPostEntry.data.image.src}
-                        alt={blogPostEntry.data.image.alt}
-                      />
-                    </div>
-                    <span class="max-w-[180px] text-gray-7 text-base group-hover:text-white">
-                      {blogPostEntry.data.title.slice(0, 35)} ...
-                    </span>
-                  </a>
-                </li>
-              ))
+              
             }
           </ul>
         </div>
@@ -281,15 +228,8 @@ const footerLinks = [
         <div class="w-full px-4 md:w-1/3 lg:w-1/2">
           <div class="my-1 flex justify-center md:justify-end">
             <p class="text-base text-gray-7">
-              Designed and Developed by
-              <a
-                href="https://tailgrids.com"
-                rel="nofollow noopner"
-                target="_blank"
-                class="text-gray-1 hover:underline"
-              >
-                TailGrids
-              </a>
+              Designed and Developed by Luc Muhizi
+              
             </p>
           </div>
         </div>
