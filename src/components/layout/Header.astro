@@ -9,10 +9,6 @@ const menuitems = [
     path: "/#about",
   },
   {
-    title: "Pricing",
-    path: "/#pricing",
-  },
-  {
     title: "Team",
     path: "/#team",
   },
@@ -32,8 +28,6 @@ const menuitems = [
       { title: "Pricing Page", path: "/pricing" },
       { title: "Contact Page", path: "/contact" },
       { title: "Blog Grid Page", path: "/blog" },
-      { title: "Sign Up Page", path: "/signup" },
-      { title: "Sign In Page", path: "/signin" },
       { title: "404 Page", path: "/404" },
     ],
   },
@@ -175,20 +169,7 @@ const menuitems = [
               </svg>
             </span>
           </button>
-          <div class="hidden sm:flex">
-            <a
-              href="/signin"
-              class={`${Astro.url.pathname === '/' ? 'loginBtn py-2 px-[22px] text-base font-medium text-white hover:opacity-70' : 'loginBtn py-2 px-[22px] text-base font-medium text-dark dark:text-white hover:opacity-70'}`}
-            >
-              Sign In
-            </a>
-            <a
-              href="/signup"
-              class={`${Astro.url.pathname === '/' ? 'signUpBtn rounded-md bg-white bg-opacity-20 py-2 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark' : 'signUpBtn rounded-md bg-primary py-2 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-blue-dark'}`}
-            >
-              Sign Up
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>
